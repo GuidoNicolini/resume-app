@@ -1,3 +1,26 @@
-.example-spacer {
-    flex: 1 1 auto;
-  }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+  margin: 10px;
+  margin-left: 40px;
+}
+.logo h1{
+    font-size: 30px;
+}
+
+ul{
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 30px;
+   margin-right: 30px;
+}
+
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,4 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*{
+	margin: 0;
+	Padding: 0;
+	Box-sizing: border-box;
+}
+
+html{
+    background: rgb(70,185,255);
+    background: radial-gradient(circle, rgba(70,185,255,0.9107843821122199) 0%, rgba(255,255,255,0.664285782672444) 98%);
+}
